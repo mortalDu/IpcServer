@@ -1,0 +1,7 @@
+include ':app'
+include ':MsgCommunicate'
+project(":MsgCommunicate").projectDir = new File("../MsgCommunicate")
+include ':utilcode'
+project(':utilcode').projectDir = new File("../utilcode")
+include ':robotlib'
+project(':robotlib').projectDir = new File("../robotlib")
